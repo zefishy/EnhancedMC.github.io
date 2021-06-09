@@ -1,0 +1,59 @@
+.u-section-1 {
+  background-image: url("images/yes.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 2025px;
+}
+
+.u-section-1 .u-text-1 {
+  width: auto;
+  margin: 342px 0 0 10px;
+}
+
+.u-section-1 .u-image-1 {
+  height: 561px;
+  animation-duration: 1000ms;
+  width: 406px;
+  margin: -433px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  border-style: none;
+  animation-duration: 1000ms;
+  margin: -102px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-image-1 {
+    margin-top: -507px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: -65px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-btn-1 {
+    margin-top: -54px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    width: 406px;
+    margin-left: -33px;
+    margin-right: -33px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: -11px;
+  }
+}
